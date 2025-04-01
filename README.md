@@ -27,13 +27,15 @@
 <div align='center' style="font-size: large; "><strong>CVPR 2025</strong></div>
 
 <div align='center' >[<a href="https://XLRS-Bench.github.io/">🍎 Project Page</a>]
-[<a href="https://arxiv.org/abs/25xx.xxxxx">📖 arXiv Paper</a>]
+[<a href="https://arxiv.org/abs/2503.23771">📖 arXiv Paper</a>]
 [<a href="https://huggingface.co/datasets/initiacms/XLRS-Bench">🤗 Dataset</a>]
 [<a href="https://XLRS-Bench.github.io/home_page.html#leaderboard">🏆 Leaderboard</a>]</div>
 
 
+
 # 🔥News
 
+* **`2025.04.01`**: The dataset is currently under final review and will be released in one month.
 * **`2025.02.27`**: XLRS-Bench has been accepted by CVPR 2025!
 
 # 📚Contents
@@ -119,7 +121,7 @@ For Visual Grounding and Detailed Image Captioning, please refer to our source f
 
 ## Evaluation
 
-**As soon as our dataset is released**, XLRS-Bench will be integrated with [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), allowing you to evaluate models easily through this framework
+**As soon as our dataset is released**, XLRS-Bench will be integrated with [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), allowing you to evaluate models easily.
 
 ## Leaderboard
 
@@ -156,7 +158,7 @@ If you find our work helpful, please consider citing:
 @article{wang2025xlrsbench,
     title={XLRS-Bench: Could Your Multimodal LLMs Understand Extremely Large Ultra-High-Resolution Remote Sensing Imagery?},
     author={Wang, Fengxiang and Wang, Hongzhen and Chen, Mingshuo and Wang, Di and Wang, Yulin and Guo, Zonghao and Ma, Qiang and Lan, Long and Yang, Wenjing and Zhang, Jing and others},
-    journal={arXiv preprint arXiv:25xx.xxxxx},
+    journal={arXiv preprint arXiv:2503.23771},
     year={2025}
 }
 ```
