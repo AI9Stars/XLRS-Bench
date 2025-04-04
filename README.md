@@ -24,7 +24,7 @@
         <span class="author-block"><sup style="color:#1a4ebf">5</sup>Zhongguancun Academy,</span>
         <span class="author-block"><sup style="color:#6fbf73">6</sup>School of Artificial Intelligence, Wuhan University</span><br>
     </div></div>
-<div align='center' style="font-size: large; "><strong>CVPR 2025</strong></div>
+<div align='center' style="font-size: larger; "><strong>CVPR 2025 Highlight</strong></div>
 
 <div align='center' >[<a href="https://XLRS-Bench.github.io/">🍎 Project Page</a>]
 [<a href="https://arxiv.org/abs/2503.23771">📖 arXiv Paper</a>]
@@ -35,6 +35,7 @@
 
 # 🔥News
 
+* **`2025.04.04`**: Selected as **Highlight** by CVPR 2025!
 * **`2025.04.01`**: The dataset is currently under final review and will be released in one month.
 * **`2025.02.27`**: XLRS-Bench has been accepted by CVPR 2025!
 
