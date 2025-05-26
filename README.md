@@ -143,6 +143,12 @@ To add your model to our [leaderboard](https://XLRS-Bench.github.io/home_page.ht
 
 Models are ranked based on their average performance. Proprietary models are highlighted in gray. Task domains are indicated by abbreviations (e.g., “OC” for Overall Counting, “RC” for Regional Counting, etc.).
 
+XLRS-Bench-lite (Avg. stands for macro average across all L3 tasks):
+
+![XLRS-Bench-lite](assets/XLRS-Bench-lite.png)
+
+XLRS-Bench (Avg. stands for micro average across all L3 tasks, we will add both micro and macro results soon):
+
 * **L-2 performance on VQA tasks.**
   
   ![l2](assets/l2.jpg)
