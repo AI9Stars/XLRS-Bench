@@ -35,7 +35,8 @@
 
 # 🔥News
 
-* **`2025.05.26`**: XLRS-Bench-lite is released on Hugging Face.
+* **`2025.05.16`**: XLRS-Bench-lite is released on Hugging Face.
+* **`2025.05.06`**: XLRS-Bench has been selected as a topic for a public competition of the Ministry of Education of China. Therefore， the full version will be released on August 4th.
 * **`2025.04.04`**: Selected as **Highlight** by CVPR 2025!
 * **`2025.04.01`**: The dataset is currently under final review and will be released in one month.
 * **`2025.02.27`**: XLRS-Bench has been accepted by CVPR 2025!
