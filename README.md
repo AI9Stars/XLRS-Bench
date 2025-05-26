@@ -28,13 +28,14 @@
 
 <div align='center' >[<a href="https://XLRS-Bench.github.io/">🍎 Project Page</a>]
 [<a href="https://arxiv.org/abs/2503.23771">📖 arXiv Paper</a>]
-[<a href="https://huggingface.co/datasets/initiacms/XLRS-Bench">🤗 Dataset</a>]
+[<a href="https://huggingface.co/datasets/initiacms/XLRS-Bench-lite">🤗 XLRS-Bench-lite</a>]
 [<a href="https://XLRS-Bench.github.io/home_page.html#leaderboard">🏆 Leaderboard</a>]</div>
 
 
 
 # 🔥News
 
+* **`2025.05.26`**: XLRS-Bench-lite is released on Hugging Face.
 * **`2025.04.04`**: Selected as **Highlight** by CVPR 2025!
 * **`2025.04.01`**: The dataset is currently under final review and will be released in one month.
 * **`2025.02.27`**: XLRS-Bench has been accepted by CVPR 2025!
@@ -122,7 +123,17 @@ For Visual Grounding and Detailed Image Captioning, please refer to our source f
 
 ## Evaluation
 
-**As soon as our dataset is released**, XLRS-Bench will be integrated with [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), allowing you to evaluate models easily.
+Using [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) for evaluation:
+```bash
+accelerate launch --num_processes 8 --main_process_port 12345 -m lmms_eval \
+    --model "qwen2_5_vl" \
+    --model_args "pretrained=Qwen/Qwen2.5-VL-7B-Instruct,use_flash_attention_2=True"  \
+    --tasks xlrs-lite \
+    --batch_size 1 \
+    --log_samples \
+    --log_samples_suffix qwen2_5_vl_xlrs_lite \
+    --output_path ./logs/
+```
 
 ## Leaderboard
 
