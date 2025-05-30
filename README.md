@@ -55,7 +55,7 @@
 - [📊Experiment Results](#experiment-results)
 - [📖Citation](#citation)
 - [🙏Acknowledgement](#acknowledgement)
-- [📚Contact](#contact)
+- [📬Contact](#contact)
 
 # 🔍Dataset Overview
 
