@@ -32,9 +32,9 @@
 [<a href="https://XLRS-Bench.github.io/home_page.html#leaderboard">🏆 Leaderboard</a>]</div>
 
 
-
 # 🔥News
 
+* **`2025.05.28`**: Training data and finetuned model, code are available at [GeoLLaVA-8K](https://github.com/MiliLab/GeoLLaVA-8K).
 * **`2025.05.16`**: XLRS-Bench-lite is released on Hugging Face.
 * **`2025.05.06`**: XLRS-Bench has been selected for a public competition by China’s Ministry of Education and will be fully released on **August 4th**, as requested by the organizers.
 * **`2025.04.04`**: Selected as **Highlight** by CVPR 2025!
@@ -174,11 +174,18 @@ XLRS-Bench (Avg. stands for micro average across all L3 tasks, we will add both 
 If you find our work helpful, please consider citing:
 
 ```tex
-@article{wang2025xlrsbench,
+@article{xlrsbench,
     title={XLRS-Bench: Could Your Multimodal LLMs Understand Extremely Large Ultra-High-Resolution Remote Sensing Imagery?},
     author={Wang, Fengxiang and Wang, Hongzhen and Chen, Mingshuo and Wang, Di and Wang, Yulin and Guo, Zonghao and Ma, Qiang and Lan, Long and Yang, Wenjing and Zhang, Jing and others},
     journal={arXiv preprint arXiv:2503.23771},
     year={2025}
+}
+
+@article{geollava8k,
+      title={GeoLLaVA-8K: Scaling Remote-Sensing Multimodal Large Language Models to 8K Resolution}, 
+      author={Fengxiang Wang and Mingshuo Chen and Yueying Li and Di Wang and Haotian Wang and Zonghao Guo and Zefan Wang and Boqi Shan and Long Lan and Yulin Wang and Hongzhen Wang and Wenjing Yang and Bo Du and Jing Zhang},
+  journal={arXiv preprint arXiv:2505.21375},
+      year={2025}
 }
 ```
 
