@@ -34,6 +34,7 @@
 
 # 🔥News
 
+* **`2025.07.26`**: [Intern-S1](https://huggingface.co/internlm/Intern-S1), the most advanced scientific open-source multimodal reasoning model to date, benchmarked on XLRS-Bench.
 * **`2025.05.28`**: Training data and finetuned model, code are available at [GeoLLaVA-8K](https://github.com/MiliLab/GeoLLaVA-8K).
 * **`2025.05.16`**: XLRS-Bench-lite is released on Hugging Face.
 * **`2025.05.06`**: XLRS-Bench has been selected for a public competition by China’s Ministry of Education and will be fully released on **August 4th**, as requested by the organizers.
