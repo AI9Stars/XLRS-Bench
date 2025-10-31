@@ -53,6 +53,7 @@
 - [📜Dataset License](#dataset-license)
 - [🚀Evaluation Pipeline](#evaluation-pipeline)
   - [Prompt](#prompt)
+  - [Huggingface Datasets](#huggingface-datasets)
   - [Evaluation](#evaluation)
   - [Leaderboard](#leaderboard)
 - [📊Experiment Results](#experiment-results)
@@ -123,7 +124,20 @@ or for **VQA task Overall Land Use Classification** please use:
 Select the best answer(s) for the multiple-choice question based on the image. There may be more than one correct option. Only respond with the letter(s) corresponding to the correct answer(s) (A, B, C, D), with multiple choices separated by spaces.
 ```
 
-For Visual Grounding and Detailed Image Captioning, please refer to our source files in the **evaluation** folder.
+For Visual Grounding and Detailed Image Captioning, please refer to the files in the **evaluation** folder.
+
+## Huggingface Datasets
+
+All available datasets are added to https://huggingface.co/collections/initiacms/xlrs-bench
+
+| Dataset                                  | Content                                                      | split      |
+| ---------------------------------------- | ------------------------------------------------------------ | ---------- |
+| initiacms/XLRS-Bench-lite                | lite version for XLRS-Bench, containing VQA data only        | train      |
+| initiacms/XLRS-Bench-lite_VLM            | lite version for XLRS-Bench, containing VQA data only, used by VLMEvalKit | train      |
+| initiacms/XLRS-Bench_caption_en          | all caption data in **English**                              | train      |
+| initiacms/XLRS-Bench_caption_zh          | all caption data in **Chinese**                              | train      |
+| initiacms/XLRS-Bench_visual_grounding_en | all visual grounding data in **English**                     | train/test |
+| initiacms/XLRS-Bench_visual_grounding_zh | all visual grounding data in **Chinese**                     | train/test |
 
 ## Evaluation
 
