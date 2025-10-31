@@ -29,11 +29,13 @@
 <div align='center' >[<a href="https://XLRS-Bench.github.io/">🍎 Project Page</a>]
 [<a href="https://arxiv.org/abs/2503.23771">📖 arXiv Paper</a>]
 [<a href="https://huggingface.co/datasets/initiacms/XLRS-Bench-lite">🤗 XLRS-Bench-lite</a>]
+[<a href="https://huggingface.co/collections/initiacms/xlrs-bench">🤗 Dataset Collections</a>]
 [<a href="https://XLRS-Bench.github.io/home_page.html#leaderboard">🏆 Leaderboard</a>]</div>
 
 
 # 🔥News
 
+* **`2025.10.31`**: Full data for captioning and visual grounding tasks are available on [huggingface](https://huggingface.co/collections/initiacms/xlrs-bench).
 * **`2025.07.26`**: [Intern-S1](https://huggingface.co/internlm/Intern-S1), the most advanced scientific open-source multimodal reasoning model to date, benchmarked on XLRS-Bench.
 * **`2025.05.28`**: Training data and finetuned model, code are available at [GeoLLaVA-8K](https://github.com/MiliLab/GeoLLaVA-8K).
 * **`2025.05.16`**: XLRS-Bench-lite is released on Hugging Face.
@@ -175,18 +177,19 @@ XLRS-Bench (Avg. stands for micro average across all L3 tasks, we will add both 
 If you find our work helpful, please consider citing:
 
 ```tex
-@article{xlrsbench,
-    title={XLRS-Bench: Could Your Multimodal LLMs Understand Extremely Large Ultra-High-Resolution Remote Sensing Imagery?},
-    author={Wang, Fengxiang and Wang, Hongzhen and Chen, Mingshuo and Wang, Di and Wang, Yulin and Guo, Zonghao and Ma, Qiang and Lan, Long and Yang, Wenjing and Zhang, Jing and others},
-    journal={arXiv preprint arXiv:2503.23771},
-    year={2025}
+@inproceedings{wang2025xlrs,
+  title={Xlrs-bench: Could your multimodal llms understand extremely large ultra-high-resolution remote sensing imagery?},
+  author={Wang, Fengxiang and Wang, Hongzhen and Guo, Zonghao and Wang, Di and Wang, Yulin and Chen, Mingshuo and Ma, Qiang and Lan, Long and Yang, Wenjing and Zhang, Jing and others},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={14325--14336},
+  year={2025}
 }
 
-@article{geollava8k,
-      title={GeoLLaVA-8K: Scaling Remote-Sensing Multimodal Large Language Models to 8K Resolution}, 
-      author={Fengxiang Wang and Mingshuo Chen and Yueying Li and Di Wang and Haotian Wang and Zonghao Guo and Zefan Wang and Boqi Shan and Long Lan and Yulin Wang and Hongzhen Wang and Wenjing Yang and Bo Du and Jing Zhang},
+@article{wang2025geollava,
+  title={GeoLLaVA-8K: Scaling Remote-Sensing Multimodal Large Language Models to 8K Resolution},
+  author={Wang, Fengxiang and Chen, Mingshuo and Li, Yueying and Wang, Di and Wang, Haotian and Guo, Zonghao and Wang, Zefan and Shan, Boqi and Lan, Long and Wang, Yulin and others},
   journal={arXiv preprint arXiv:2505.21375},
-      year={2025}
+  year={2025}
 }
 ```
 
